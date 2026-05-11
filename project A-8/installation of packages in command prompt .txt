@@ -1,0 +1,43 @@
+installation of packages in command prompt:
+## All Packages Used 📦
+
+---
+
+### Installed via `apt` (System Level)
+```bash
+sudo apt install python3-opencv python3-picamera2 python3-pip git
+```
+
+| Package | Purpose |
+|---|---|
+| `python3-opencv` | Image processing, drawing boxes, displaying frames |
+| `python3-picamera2` | Capturing frames from Pi Camera |
+| `python3-pip` | To install Python packages |
+| `git` | To clone the GitHub repo |
+
+---
+
+### Installed via `pip`
+```bash
+pip install numpy --break-system-packages
+pip install ai-edge-litert --break-system-packages
+pip install tensorflow --break-system-packages
+pip install ultralytics --break-system-packages  # later uninstalled
+```
+
+| Package | Purpose | Final Status |
+|---|---|---|
+| `numpy` | Array operations for image data | ✅ Used |
+| `ai-edge-litert` | Running TFLite model on Pi | ✅ Used |
+| `tensorflow` | TFLite backend support | ✅ Installed |
+| `ultralytics` | Originally planned for YOLO | ❌ Uninstalled (PyTorch conflict) |
+
+---
+
+### Actually Imported in Final Code
+```python
+import cv2          # opencv
+import numpy as np  # numpy
+from picamera2 import Picamera2  # picamera2
+from ai_edge_litert.interpreter import Interpreter  # tflite inference
+import time         # built-in Python
