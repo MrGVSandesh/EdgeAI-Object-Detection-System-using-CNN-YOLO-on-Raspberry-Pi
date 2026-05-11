@@ -11,33 +11,33 @@ The system is optimized for low-latency edge computing, making it suitable for r
 
 
 🎯 Key Features
-📷 Real-time object detection using live camera feed
-🧠 CNN-based YOLO model for accurate detection
-⚡ Edge AI deployment on Raspberry Pi
-📦 Multi-object detection with confidence scores
-🖥️ Bounding box visualization in real-time
-🔄 Continuous video stream processing
-🚀 Optimized for low-power embedded devices
+-📷 Real-time object detection using live camera feed
+-🧠 CNN-based YOLO model for accurate detection
+-⚡ Edge AI deployment on Raspberry Pi
+-📦 Multi-object detection with confidence scores
+-🖥️ Bounding box visualization in real-time
+-🔄 Continuous video stream processing
+-🚀 Optimized for low-power embedded devices
 
 <img width="322" height="342" alt="image" src="https://github.com/user-attachments/assets/2e5b44b2-1b5d-4208-9275-2419616993ce" />
 
 <img width="377" height="257" alt="image" src="https://github.com/user-attachments/assets/e4e57c81-3777-45f9-8426-83e4ec7e0c67" />
 
 🛠️ Tech Stack
-Python 🐍
-OpenCV 👁️
-Deep Learning (CNN)
-YOLO (You Only Look Once)
-TensorFlow Lite / PyTorch
-Raspberry Pi OS
-NumPy
+-Python 🐍
+-OpenCV 👁️
+-Deep Learning (CNN)
+-YOLO (You Only Look Once)
+-TensorFlow Lite / PyTorch
+-Raspberry Pi OS
+-NumPy
 
 <img width="322" height="321" alt="image" src="https://github.com/user-attachments/assets/2dbbd5ff-4f36-4864-9beb-ebe615f4ba5e" />
 
 <img width="367" height="317" alt="image" src="https://github.com/user-attachments/assets/00cc181e-6e1e-4b99-832f-51830af71f80" />
 
 📦 Hardware Requirements
-Raspberry Pi 3 / 4
-Raspberry Pi Camera Module / USB Webcam
-5V Power Supply
-MicroSD Card (16GB or more)
+-Raspberry Pi 3 / 4
+-Raspberry Pi Camera Module / USB Webcam
+-5V Power Supply
+-MicroSD Card (16GB or more)
